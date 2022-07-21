@@ -1,0 +1,21 @@
+.pagination-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    li {
+        list-style-type: none;
+        &:not(:last-child) {
+            margin-right: 16px;
+        }
+    }
+}
+.active {
+    .pagination-button {
+        background-color: #56CCF2;
+    }
+}
+.inactive {
+    span {
+        color: #BDBDBD;
+    }
+}

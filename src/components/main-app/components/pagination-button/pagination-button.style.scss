@@ -1,0 +1,14 @@
+.pagination-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    a {
+        color: #000000;
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+}

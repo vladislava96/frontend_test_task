@@ -1,0 +1,10 @@
+.footer__social-networks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 150px;
+    margin: 19px 0 0;
+    img {
+        cursor: pointer;
+    }
+}

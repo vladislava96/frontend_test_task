@@ -1,0 +1,10 @@
+.store-tag {
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    background-color: #C4C4C4;
+    line-height: 14px;
+    &:not(:last-child) {
+        margin-right: 16px;
+    }
+}

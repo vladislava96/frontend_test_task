@@ -1,0 +1,29 @@
+.sort select{
+    width: 207px;
+    height: 35px;
+    margin-left: 10px;
+    font-weight: 400;
+    padding: 7px 8px;
+    font-size: 1rem;
+    line-height: 19px
+}
+select {
+    outline: none;
+    border: 1px solid #BDBDBD;
+    appearance: none;
+    background-image: url("../../../../svg/dropdown-arrow.svg"); 
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: right .7em top 50%, 0 0;
+    color: #828282;
+    font-size: 1rem;
+}
+.select-focus {
+    outline: none;
+    border: 1px solid #2D9CDB;
+    box-shadow: none;
+    color: #4F4F4F;
+    background-image: url("../../../../svg/dropdown-arrow-active.svg");
+    background-repeat: no-repeat;
+    background-position: right .7em top 50%, 0 0; 
+}

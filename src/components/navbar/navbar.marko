@@ -1,0 +1,11 @@
+import dataset from "../../dataset.json"
+
+<div class="navbar">
+    <nav>
+        <ul class="navbar__list">
+            <for|obj, index| of=input.items>
+                <li class="navbar__item"><a href=`${obj.href}`>${obj.text}</a></li>
+            </for>    
+        </ul>
+    </nav>
+</div>

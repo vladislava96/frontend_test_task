@@ -1,0 +1,28 @@
+<for|obj, index| of=input.dataProducts>
+    <div class="listing-item">
+        <div class="listing-item__product">
+            <div class="img-container">
+            <img src=`img/${obj.image}` alt=`${obj.title}`>
+            </div>
+            <div class="listing-item__description">
+                <div class="listing-item__description-main">
+                    <span>
+                        ${obj.title}
+                    </span>
+                    <p>
+                        Item Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nulla quis distinctio, officia tenetur a eaque deleniti, impedit accusamus, 
+                        alias provident sint id odio neque laudantium! Saepe quisquam libero soluta itaque? 
+                    </p>
+                </div>
+                <div class="tags">
+                    <tag word = obj.year />
+                    <tag word = obj.mileage word2=obj.mileage_measure />
+                    <tag word = obj.axle_configuration /> 
+                </div>
+            </div>
+        </div>
+        <div class="listing-item__product-price">${obj.price_currency} ${obj.price} </div>
+    </div>
+</for> 
+
